@@ -1,7 +1,9 @@
 import streamlit as st
 import joblib
 import numpy as np
+import sys
 
+st.write(f"Python Version: {sys.version}")
 model = joblib.load('iris_rf_model.pkl')
 
 def main():
