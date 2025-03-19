@@ -4,7 +4,7 @@ import numpy as np
 import sys
 
 st.write(f"Python Version: {sys.version}")
-model = joblib.load('iris_rf_model.pkl')
+model = joblib.load('iris_model.pkl')
 
 def main():
     st.title('Prediction for Iris Dataset')
